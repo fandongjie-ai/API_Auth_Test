@@ -62,9 +62,5 @@ if __name__ == '__main__':
     os.system("allure generate allure-results -o report --clean")
     print("报告生成完成")
 
-    print("打开Allure报告...")
-    os.system("allure open ./report")
-    print("报告已打开")
-
 
 
